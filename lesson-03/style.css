@@ -1,0 +1,22 @@
+body{
+	background-image: url(./bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+img {
+  min-height: 200px;
+	
+  background-color: #f0f0f0; 
+  display: block;
+  object-fit: cover;
+
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 0.8s ease, transform 0.8s ease;
+
+	margin-bottom: 40%;
+}
